@@ -8,7 +8,7 @@
   "context_size": 3,
   "verbose_system": false,
   "timeout_ms": 15000,
-  "max_completion_tokens": 400,
+  "max_completion_tokens": 300,
   "retry": {"enabled": true, "max_attempts": 3, "backoff_ms": 300},
   "cache": {"enabled": true},
   "normalize_unicode": true,
@@ -20,6 +20,6 @@
   "route_rules": [],
   "planner": false,
   "verify": false,
-  "self_consistency": 2,
+  "self_consistency": 1,
   "tool_budget": 4
 }
